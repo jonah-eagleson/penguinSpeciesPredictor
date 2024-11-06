@@ -1,9 +1,6 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# 🐧 Penguin Species Predictor
 
-Description of the app ...
+This uses a machine learning model to predict penguin species based on a data set
 
 ## Demo App
 
