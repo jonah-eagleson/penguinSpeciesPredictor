@@ -1,5 +1,13 @@
 import streamlit as st
+import pandas as pd
+import sklearn
+import numpy
 
-st.title('🎈 App Name')
+st.title('Penguin Species Predictor')
 
-st.write('Hello world!')
+st.info("This app utilizes a machine learning model to predict penguin species")
+
+with st.expander('Data'):
+    st.write('**RAW data')
+    df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/penguins_cleaned.csv')
+    df
