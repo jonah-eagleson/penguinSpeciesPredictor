@@ -4,7 +4,7 @@ This uses a machine learning model to predict penguin species based on a data se
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://penguinSpeciesPredictor.streamlit.app/)
 
 ## GitHub Codespaces
 
