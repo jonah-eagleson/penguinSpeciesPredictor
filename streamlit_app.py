@@ -11,3 +11,5 @@ with st.expander('Data'):
     st.write('**RAW data**')
     df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/refs/heads/master/penguins_cleaned.csv')
     df
+
+    st.write('**X**')
