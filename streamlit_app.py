@@ -28,11 +28,12 @@ with st.expander("Data Visualization"):
 with st.sidebar:
     st.header("Input Features")
     island = st.selectbox("Island", ("Biscoe", "Dream", "Torgerson"))
-    gender = st.selectbox('Gender', ('Male', 'Female'))
     bill_length_mm = st.slider('Bill Length (mm)', 32.1, 59.6, 43.9)
     bill_depth_mm = st.slider("Bill Depth (mm)", 13.1, 21.5, 17.2)
     flipper_length_mm = st.slider("Flipper Length (mm)", 172.0, 231.0, 201.0)
     body_mass_g = st.slider('Body Mass (g)', 2700.0, 6300.0, 4207.0)
+    gender = st.selectbox('Gender', ('Male', 'Female'))
+
 
 # Create Datafram for input
     data = {'island': island, 
@@ -44,4 +45,8 @@ with st.sidebar:
     input_df = pd.DataFrame(data, index=[0])
     input_penguins = pd.concat([input_df, X], axis=0)
 
-input_df
+with st.expander('Input Features'):
+    st.write('**Input Penguin**')
+    input_df
+    st.write("**Combined Penguins Data**")
+    input_penguins
