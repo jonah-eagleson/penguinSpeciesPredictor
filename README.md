@@ -8,5 +8,4 @@ This uses a machine learning model to predict penguin species based on a data se
 
 ## About
 
-This app takes advantage of the seamless capabilites of Streamlit's framework to make an interactive machine learning app. Scraping a data set from the web using the pandas library and sending the data through a ML model using scikit-learn
-
+This app takes advantage of the seamless capabilites of Streamlit's framework to make an interactive machine learning app. Scraping a data set from the web using the pandas library and sending the data through a ML model using scikit-learn!
