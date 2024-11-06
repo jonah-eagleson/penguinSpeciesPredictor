@@ -6,17 +6,7 @@ This uses a machine learning model to predict penguin species based on a data se
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://penguinSpeciesPredictor.streamlit.app/)
 
-## GitHub Codespaces
+## About
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
+This app takes advantage of the seamless capabilites of Streamlit's framework to make an interactive machine learning app. Scraping a data set from the web using the pandas library and sending the data through a ML model using scikit-learn
 
-## Section Heading
-
-This is filler text, please replace this with text for this section.
-
-## Further Reading
-
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
